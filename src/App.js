@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import BTNS from "./BTNS";
+import Value from "./Value";
+import Setting from "./Setting";
+
 
 
 
@@ -36,7 +38,7 @@ class App extends React.Component {
         this.setState(state)};
 
 
-    //
+
 
     maxValue = (e) => {
         let max = e.target.value;
@@ -105,7 +107,7 @@ class App extends React.Component {
             count: false,
             set: true
         })
-    }
+    };
     onCountVisible = () => {
         this.setState({
             count: true,
@@ -116,24 +118,26 @@ class App extends React.Component {
     };
 
     render = () => {
-
-        let setDisabled = this.state.min < 0 === true || this.state.max <= this.state.min  === true
-        let buttonError = this.state.min < 0 === true || this.state.max <= this.state.min  === true ? 'disabled' : ''
         return (
-            <div className='middle'>
-                {this.state.count && <div>
-                    <span>{this.state.count_start}</span>
-                    <button onClick={this.count_value}>ink</button>
-                    <button onClick={this.setToZero}>reset</button>
-                    <button onClick={this.onSetVisible}>set</button>
-                </div>}
-                {this.state.set && <div>
-                   <span>maxValue</span> <input onChange={this.maxValue} value={this.state.max} type='number'/>
-                   <span>minValue</span> <input onChange={this.minValue} value={this.state.min} type="number"/>
-                    <button  className={buttonError} disabled={setDisabled} onClick={this.onCountVisible}>set</button>
-                </div>}
+            <div>
+                <Value
+                    count_value={this.count_value}
+                    count_start={this.state.count_start}
+                   setToZero={this.setToZero}
+                    onSetVisible={this.onSetVisible}
+                />
+                <Setting
+                    maxValue={this.maxValue}
+                    minValue={this.minValue}
+                    min={this.min}
+                    max={this.max}
+                    onCountVisible={this.onCountVisible}
+                    set={this.state.set}
+
+                />
             </div>
         )
+
     }
 }
 

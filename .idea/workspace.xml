@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31915f1-5d74-487a-9c84-3129a5aeb36d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Value.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BTNS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BTNS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Count_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Count_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Count_2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Value.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/count2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BTNS.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +25,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RIFManB0fVnh9ErfLwR1UHoJxv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Counter2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,15 +41,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Наташа\Desktop\Новая папка\Counter\src" />
-      <recent name="C:\Users\Наташа\Desktop\Новая папка\schetchik\src" />
-      <recent name="D:\ler\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Наташа\Desktop\Новая папка\Counters\src" />
       <recent name="C:\Users\Наташа\Desktop\Новая папка\Counter\src\Count_2" />
       <recent name="C:\Users\Наташа\Desktop\Новая папка\Counter\src\Count_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Counter3\src" />
+      <recent name="C:\Users\Наташа\Desktop\Новая папка\Counter\src" />
+      <recent name="C:\Users\Наташа\Desktop\Новая папка\schetchik\src" />
+      <recent name="D:\ler\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,6 +128,7 @@
       <workItem from="1578746093543" duration="16170000" />
       <workItem from="1578771223607" duration="2577000" />
       <workItem from="1578811581597" duration="325000" />
+      <workItem from="1578812363509" duration="3184000" />
     </task>
     <servers />
   </component>
