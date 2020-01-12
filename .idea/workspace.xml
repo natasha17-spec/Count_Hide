@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31915f1-5d74-487a-9c84-3129a5aeb36d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Value.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BTNS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Value.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Value.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Counter2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,8 +128,17 @@
       <workItem from="1578746093543" duration="16170000" />
       <workItem from="1578771223607" duration="2577000" />
       <workItem from="1578811581597" duration="325000" />
-      <workItem from="1578812363509" duration="3184000" />
+      <workItem from="1578812363509" duration="3580000" />
+      <workItem from="1578821252318" duration="6437000" />
     </task>
+    <task id="LOCAL-00001" summary="addTwoComponent">
+      <created>1578816130886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578816130887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +156,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="addTwoComponent" />
+    <option name="LAST_COMMIT_MESSAGE" value="addTwoComponent" />
   </component>
 </project>

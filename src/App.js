@@ -29,6 +29,7 @@ class App extends React.Component {
             max: 50,
             error: false,
             set: false,
+            disabled: false
 
         };
 
@@ -119,22 +120,27 @@ class App extends React.Component {
 
     render = () => {
         return (
-            <div>
+            <div className='counter_box'>
+                {!this.state.set ?
                 <Value
                     count_value={this.count_value}
                     count_start={this.state.count_start}
                    setToZero={this.setToZero}
                     onSetVisible={this.onSetVisible}
-                />
+                    disabled={this.state.disabled}
+                    max={this.state.max}
+                    min={this.state.min}
+                /> :
                 <Setting
                     maxValue={this.maxValue}
                     minValue={this.minValue}
                     min={this.min}
                     max={this.max}
                     onCountVisible={this.onCountVisible}
-                    set={this.state.set}
+                    disabled={this.state.disabled}
 
-                />
+
+                />}
             </div>
         )
 
