@@ -1,0 +1,24 @@
+
+.counters2 {
+    width: 350px;
+    height: 85px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:20px;
+}
+.count2{
+display: flex;
+    margin: 20px;
+}
+.count2 input{
+text-align: center;
+    font-size: 18px;
+ }
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
