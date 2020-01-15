@@ -19,7 +19,9 @@ class Setting extends React.Component {
                                                          type='number'/>
                         </div>
                         <div className='span_input_one'>
-                            <span >minValue</span> <input className={classInputSetColor} onChange={this.props.minValue} value={this.props.min}
+                            <span >minValue</span> <input className={classInputSetColor}
+                                                          onChange={this.props.minValue}
+                                                          value={this.props.min}
                                                          type="number"/>
                         </div>
                     </div>
