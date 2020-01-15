@@ -12,7 +12,10 @@ class App extends React.Component {
         min: 0,
         max: 20,
         count: true,
-        set: false
+        set: false,
+        minValue:0,
+        maxValue:5,
+        disabled: true
     };
     componentDidMount() {
         this.restoreState()
@@ -29,7 +32,7 @@ class App extends React.Component {
             max: 50,
             error: false,
             set: false,
-            disabled: false
+
 
         };
 
@@ -134,8 +137,8 @@ class App extends React.Component {
                 <Setting
                     maxValue={this.maxValue}
                     minValue={this.minValue}
-                    min={this.min}
-                    max={this.max}
+                    min={this.state.min}
+                    max={this.state.max}
                     onCountVisible={this.onCountVisible}
                     disabled={this.state.disabled}
 

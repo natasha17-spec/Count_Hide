@@ -7,10 +7,12 @@ import './App.css';
 class Value extends React.Component {
 
     render = () => {
+
         let classBtnColor = this.props.min < 0 || this.props.min === "" || this.props.min >= this.props.max ? 'btn_error': '';
-        let disabled = this.props.min < 0 || this.props.min === "" || this.props.min >= this.props.max ? this.props.disabled===true: '';
+        let disabled = this.props.count_start === this.props.max;
         let classColor = this.props.count_start === this.props.max ? 'error':'';
 
+        console.log(this.props)
         return (
 
             <div className='counters'>
